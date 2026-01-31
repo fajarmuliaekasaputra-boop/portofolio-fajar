@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fajar Mulia - Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-content"> 
+      
+      <!-- LOGO -->
+      <div class="logo">
+        <img src="images/poto.jpeg" alt="Logo" onerror="this.style.display='none'">
+        <span>FAJAR MULIA</span>
+      </div>
+
+      <!-- HAMBURGER ICON -->
+      <div class="hamburger" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+      <!-- MENU NAVIGASI -->
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" onclick="closeMenu()">Home</a>
+        <a href="#about" onclick="closeMenu()">About Me</a>
+        <a href="#projects" onclick="closeMenu()">Projects</a>
+        <a href="#certificates" onclick="closeMenu()">Certificates</a>
+        <a href="#services" onclick="closeMenu()">Services</a>
+        <a href="#contact" onclick="closeMenu()">Contact</a>
+        <div id="clock" class="clock-badge" style="color: var(--text-muted); font-size: 12px; margin-left: 10px;">--:-- WIB</div>
+      </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>HALLO! I'M FAJAR MULIA</h1>
+        <h2>I'M A STUDENT</h2>
+        <p>
+          “Tidak semua kenyamanan atau bantuan dalam perjalanan membuat seseorang bahagia;
+          hanya pandangan dan cara menikmati perubahanlah yang membawa sukacita sejati.”
+        </p>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about">
+    <div class="container about-grid">
+      <div class="about-photo">
+        <img src="/images/pp.jpeg" alt="About photo">
+      </div>
+      <div class="about-text">
+        <span class="section-label">ABOUT ME</span>
+        <h2>AVAILABLE FOR PROJECTS</h2>
+        <p>
+          Saya adalah Mahasiswa Informatika yang memiliki minat besar di bidang pengembangan aplikasi dan teknologi informasi.
+        </p>
+        <div class="about-stats">
+          <div class="stat-box">
+            <h3>0+</h3><p>Projects</p>
+          </div>
+          <div class="stat-box">
+            <h3>0+</h3><p>Experience</p>
+          </div>
+          <div class="stat-box">
+            <h3>0+</h3><p>Awards</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <span class="section-label">MY WORK</span>
+      <h2>RECENT PROJECTS</h2>
+      <div class="projects-slider">
+        <div class="card">
+          <img src="/images/image.png" alt="Project 1">
+          <h3>Web Design</h3>
+          <p>Modern UI/UX Interface</p>
+        </div>
+        <div class="card">
+          <img src="/images/project-2.png" alt="Project 2">
+          <h3>App Development</h3>
+          <p>Mobile Application</p>
+        </div>
+        <div class="card">
+          <img src="/images/project-3.png" alt="Project 3">
+          <h3>Dashboard</h3>
+          <p>Admin System Layout</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATES SECTION -->
+  <section id="certificates" class="certificates">
+    <div class="container">
+      <span class="section-label">ACHIEVEMENTS</span>
+      <h2>CERTIFICATES</h2>
+      
+      <div class="cert-marquee">
+  <div class="cert-track">
+    
+    <!-- Item 1 -->
+    <div class="card cert-card">
+      <img src="/images/Batch1.jpeg" alt="Cert 1">
+    </div>
+    
+    <!-- Item 2 -->
+    <div class="card cert-card">
+      <img src="/images/sertifikat dunia industri.18.jpeg" alt="Cert 2">
+    </div>
+    
+    <!-- Item 3 -->
+    <div class="card cert-card">
+      <img src="/images/PKKMB.jpeg" alt="Cert 3">
+    </div>
+    
+    <!-- Item 4 -->
+    <div class="card cert-card">
+      <img src="/images/CCNA cisco.jpeg" alt="Cert 4">
+    </div>
+    
+    <!-- Item 5 -->
+    <div class="card cert-card">
+      <img src="/images/introduction cisco.jpeg" alt="Cert 5">
+    </div>
+
+    <!-- DUPLIKAT (Agar animasi looping tidak putus) -->
+    
+    <!-- Item 1 Copy -->
+    <div class="card cert-card">
+      <img src="/images/Batch1.jpeg" alt="Cert 1">
+    </div>
+    
+    <!-- Item 2 Copy -->
+    <div class="card cert-card">
+      <img src="/images/sertifikat dunia industri.18.jpeg" alt="Cert 2">
+    </div>
+    
+    <!-- Item 3 Copy -->
+    <div class="card cert-card">
+      <img src="/images/PKKMB.jpeg" alt="Cert 3">
+    </div>
+
+    <!-- Item 4 Copy -->
+    <div class="card cert-card">
+      <img src="/images/CCNA cisco.jpeg" alt="Cert 4">
+    </div>
+    
+    <!-- Item 5 Copy -->
+    <div class="card cert-card">
+      <img src="/images/introduction cisco.jpeg" alt="Cert 5">
+    </div>
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="services">
+    <div class="container">
+      <span class="section-label">SERVICES</span>
+      <h2>WHAT I OFFER</h2>
+      <div class="services-grid">
+        <div class="card service-card">
+          <i class="fa-solid fa-pen-nib" style="font-size: 2rem; color: #3b82f6; margin-bottom: 15px;"></i>
+          <h3>UI Design</h3>
+          <p>Membuat desain antarmuka yang modern dan nyaman digunakan.</p>
+        </div>
+        <div class="card service-card">
+          <i class="fa-solid fa-code" style="font-size: 2rem; color: #3b82f6; margin-bottom: 15px;"></i>
+          <h3>Web Dev</h3>
+          <p>Membangun website responsif dengan HTML, CSS, dan JS.</p>
+        </div>
+        <div class="card service-card">
+          <i class="fa-solid fa-layer-group" style="font-size: 2rem; color: #3b82f6; margin-bottom: 15px;"></i>
+          <h3>Prototyping</h3>
+          <p>Simulasi interaksi aplikasi menggunakan Figma.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <span class="section-label">CONTACT</span>
+      <h2 class="contact-title">GET IN TOUCH</h2>
+      <div class="contact-grid">
+        <div class="card contact-card">
+          <h3>WhatsApp</h3>
+          <p>Chat untuk respons cepat</p>
+          <a class="contact-link" href="https://wa.me/6281235855258" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i> +62 812-35855258
+          </a>
+        </div>
+        <div class="card contact-card">
+          <h3>Email</h3>
+          <p>Kirim detail proyek</p>
+          <a class="contact-link" href="mailto:fajarmuliaekasaputra@gmail.com">
+            <i class="fa-solid fa-envelope"></i> fajarmuliaekasaputra@gmail.com
+          </a>
+        </div>
+        <div class="card contact-card">
+          <h3>Instagram</h3>
+          <p>Chat untuk respons cepat</p>
+          <a class="contact-link" href="https://www.instagram.com/fajarmulia_11" target="_blank">
+            <i class="fa-brands fa-instagram"></i> @fajarmulia_11
+          </a>
+        </div>
+      </div>  
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-copy-wrapper">
+      <p class="footer-copy">&copy; 2026 Fajar Mulia Portfolio. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+  <script>
+  function updateClock() {
+    const clock = document.getElementById("clock");
+    if (!clock) return;
+
+    const now = new Date();
+
+    const hours = String(now.getHours()).padStart(2, '0');
+    const minutes = String(now.getMinutes()).padStart(2, '0');
+    const seconds = String(now.getSeconds()).padStart(2, '0');
+
+    clock.textContent = `${hours}:${minutes}:${seconds} WIB`;
+  }
+
+  // Jalankan langsung saat halaman load
+  updateClock();
+
+  // Update tiap 1 detik (smooth & stabil)
+  setInterval(updateClock, 1000);
+</script>
+
+</body>
+</html>
